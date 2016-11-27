@@ -159,19 +159,6 @@ local options={
 		}
     },
 	
-	{
-		key    = "firethroughfriendly",
-		name   = "Fire Through Friendly Units",
-		desc   = "Causes weapons not to collide with nor avoid friendly units resulting in very TA style gameplay. *Note* Phoenix Annihilation is one of very few games that cause friendly units to block fire.",		
-		type="list",
-		def="disabled",
-		section= "pa_options",
-		items={
-			{key="disabled", name="Disabled", desc=""},
-			{key="enabled", name="Enabled", desc="Causes weapons not to collide with nor avoid friendly units resulting in very TA style gameplay."},
-		}
-    },
-	
 -- Control Victory Options	
 	{
 		key    = 'controlvictoryoptions',
