@@ -102,7 +102,7 @@ function widget:UnitFromFactory(unitID, unitDefID, unitTeam, factID, factDefID, 
 		return
 	end
 	local ud=UnitDefs[unitDefID]
-	--- liche: workaround for BA (liche is fighter)
+	--- liche: workaround for PA (liche is fighter)
 	if MustStop(unitID, unitDefID) then
 		Spring.GiveOrderToUnit(unitID,CMD.STOP,{},{})
 	else

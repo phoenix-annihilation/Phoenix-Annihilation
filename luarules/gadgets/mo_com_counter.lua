@@ -60,7 +60,7 @@ function gadget:UnitDestroyed(unitID, unitDefID, teamID)
 	end
 end
 
--- BA does not allow sharing to enemy, so no need to check Given, Taken, etc
+-- PA does not allow sharing to enemy, so no need to check Given, Taken, etc
 
 local function ReCheck()
 	-- occasionally, recheck just to make sure...

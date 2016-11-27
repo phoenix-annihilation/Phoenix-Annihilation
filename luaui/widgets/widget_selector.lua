@@ -12,7 +12,7 @@
 --------------------------------------------------------------------------------
 -- changes:
 --   jK (April@2009) - updated to new font system
---   Bluestone (Jan 2015) - added to BA as a widget, added various stuff 
+--   Bluestone (Jan 2015) - added to PA as a widget, added various stuff 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 

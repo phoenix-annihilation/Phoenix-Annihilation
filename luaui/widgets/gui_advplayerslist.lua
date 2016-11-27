@@ -23,7 +23,7 @@ function widget:GetInfo()
 end
 
 --Changelog
--- before v8.0 developed outside of BA by Marmoth
+-- before v8.0 developed outside of PA by Marmoth
 -- v9.0 (Bluestone): modifications to deal with twice as many players/specs; specs are rendered in a small font and cpu/ping does not show for them. 
 -- v9.1 ([teh]decay): added notification about shared resources
 -- v10  (Bluestone): Better use of opengl for a big speed increase & less spaghetti

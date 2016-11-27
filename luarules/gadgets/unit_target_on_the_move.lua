@@ -3,7 +3,7 @@ function gadget:GetInfo()
   return {
 	name 	= "Target on the move",
 	desc	= "Adds a command to set a priority attack target",
-	author	= "Google Frog, adapted for BA by BrainDamage",
+	author	= "Google Frog, adapted for PA by BrainDamage",
 	date	= "06/05/2013",
 	license	= "GNU GPL, v2 or later",
 	layer	= 0,

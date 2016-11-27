@@ -13,7 +13,7 @@ function widget:GetInfo()
 	}
 end
 -- 12 jun 2012: "uDef.isMetalExtractor" was replaced by "uDef.extractsMetal > 0" to fix "metal" mode map switching (by [teh]decay, thx to vbs and Beherith)
--- 20 march 2013: added keyboard support with BA keybinds (Bluestone)
+-- 20 march 2013: added keyboard support with P	A keybinds (Bluestone)
 -- august 2013: send queue length to cmd_idle_players (BrainDamage)
 -- june 2015: guishader + rounded corners + hover effect + widget scales with resolution + remembers queue after /luaui reload (Floris)
 
@@ -937,7 +937,7 @@ function widget:MouseRelease(mx, my, mButton)
 end
 
 ------------------------------------------------------------
--- Keyboard -- This will only work with BA!
+-- Keyboard -- This will only work with PA!
 ------------------------------------------------------------
 local ZKEY = 122
 local XKEY = 120

@@ -28,9 +28,9 @@
 local options =
 {
   {
-    key="ba_others",
-    name="Balanced Annihilation - Other Settings",
-    name="Balanced Annihilation - Other Settings",
+    key="pa_others",
+    name="Phoenix Annihilation - Other Settings",
+    name="Phoenix Annihilation - Other Settings",
     type="section",
   },
   {
@@ -51,7 +51,7 @@ local options =
     desc    = "Switch Pathfinding System",
     type    = "list",
     def     = "normal",
-    section = "ba_others",
+    section = "pa_others",
 	items={
 	  {key="normal", name="Normal", desc="Spring vanilla pathfinder"},
 	  {key="qtpfs", name="QuadTree", desc="Experimental quadtree based pathfinder"},

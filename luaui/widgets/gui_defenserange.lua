@@ -17,10 +17,10 @@ end
 
 --[[
 changelog:
-6.3: heightboost support. missing ba floating turrets added (thx to nixa)
+6.3: heightboost support. missing pa floating turrets added (thx to nixa)
 6.2: speed-up by cpu culling
-6.12: bugfix (BA Ambusher working)
-6.11: added missing water units to BA (torpLauncher/FHLT/FRocketTower)
+6.12: bugfix (PA Ambusher working)
+6.11: added missing water units to PA (torpLauncher/FHLT/FRocketTower)
 6.1: -XTA-support added (thx to manolo_)
 	 -tweak mode and load/save fixed
 	 --]]
@@ -29,11 +29,11 @@ changelog:
 local debug = false --generates debug message
 
 local modConfig = {}
--- BA
+-- PA
 --to support other mods
 --table initialized and unitList is needed!
-modConfig["BA"] = {}
-modConfig["BA"]["unitList"] = 
+modConfig["PA"] = {}
+modConfig["PA"]["unitList"] = 
 							{ 
 								armclaw = { weapons = { 1 } },
 								cormaw = { weapons = { 1 } },
@@ -95,16 +95,16 @@ modConfig["BA"]["unitList"] =
 
 --implement this if you want dps-depending ring-colors
 --colors will be interpolated by dps scores between min and max values. values outside range will be set to nearest value in range -> min or max
-modConfig["BA"]["armorTags"] = {}
-modConfig["BA"]["armorTags"]["air"] = "vtol"
-modConfig["BA"]["armorTags"]["ground"] = "else"
-modConfig["BA"]["dps"] = {}
-modConfig["BA"]["dps"]["ground"] = {}
-modConfig["BA"]["dps"]["air"] = {}
-modConfig["BA"]["dps"]["ground"]["min"] = 50
-modConfig["BA"]["dps"]["ground"]["max"] = 500
-modConfig["BA"]["dps"]["air"]["min"] = 80
-modConfig["BA"]["dps"]["air"]["max"] = 500
+modConfig["PA"]["armorTags"] = {}
+modConfig["PA"]["armorTags"]["air"] = "vtol"
+modConfig["PA"]["armorTags"]["ground"] = "else"
+modConfig["PA"]["dps"] = {}
+modConfig["PA"]["dps"]["ground"] = {}
+modConfig["PA"]["dps"]["air"] = {}
+modConfig["PA"]["dps"]["ground"]["min"] = 50
+modConfig["PA"]["dps"]["ground"]["max"] = 500
+modConfig["PA"]["dps"]["air"]["min"] = 80
+modConfig["PA"]["dps"]["air"]["max"] = 500
 --end of dps-colors
 
 -- BA

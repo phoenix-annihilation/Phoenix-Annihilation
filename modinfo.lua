@@ -1,10 +1,10 @@
 return {
-  name='Balanced Annihilation',
-  description='Balanced Annihilation',
-  shortname='BA',
+  name='Phoenix Annihilation',
+  description='From The Ashes Of Balanced Annihilation',
+  shortname='PA',
   version='$VERSION',
   mutator='Official',
   game='Total Annihilation',
-  shortGame='TA',
+  shortGame='PA',
   modtype=1,
 }

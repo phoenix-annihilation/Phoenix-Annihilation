@@ -1,5 +1,5 @@
 local unitlist={--- Human friendly list. Automatically converted to unitdef IDs on init
- -- BA
+ -- PA
  -- this should only ever swap between pairs of (buildable) units, 03/06/13
  
 {'armmex','armuwmex', 'cormex','coruwmex'},-- to test that widget behaves correctly when unit can't really be built

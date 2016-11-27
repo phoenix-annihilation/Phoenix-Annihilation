@@ -7,15 +7,15 @@ local options={
 	   type   = "section",
 	},
     {
-       key="ba_modes",
-       name="Balanced Annihilation - Game Modes",
-       desc="Balanced Annihilation - Game Modes",
+       key="pa_modes",
+       name="Phoenix Annihilation - Game Modes",
+       desc="Phoenix Annihilation - Game Modes",
        type="section",
     },
     {
-       key="ba_options",
-       name="Balanced Annihilation - Options",
-       desc="Balanced Annihilation - Options",
+       key="pa_options",
+       name="Phoenix Annihilation - Options",
+       desc="Phoenix Annihilation - Options",
        type="section",
     },
 	{
@@ -24,7 +24,7 @@ local options={
 		desc="What it takes to eliminate a team",
 		type="list",
 		def="com",
-		section="ba_modes",
+		section="pa_modes",
 		items={
 			{key="neverend", name="None", desc="Teams are never eliminated"},
 			{key="com", name="Kill all enemy Commanders", desc="When a team has no Commanders left, it loses"},
@@ -36,7 +36,7 @@ local options={
         name   = 'Armageddon time (minutes)',
         desc   = 'At armageddon every immobile unit is destroyed and you fight to the death with what\'s left! (0=off)',
         type   = 'number',
-        section= 'ba_modes',
+        section= 'pa_modes',
         def    = 0,
         min    = 0,
         max    = 120,
@@ -48,7 +48,7 @@ local options={
 		desc   = "Units with no player control are removed/destroyed \nUse FFA spawning mode",
 		type   = "bool",
 		def    = false,
-		section= "ba_modes",
+		section= "pa_modes",
     },
     {
         key    = 'mo_coop',
@@ -56,14 +56,14 @@ local options={
         desc   = 'Adds extra commanders to id-sharing teams, 1 com per player',
         type   = 'bool',
         def    = false,
-        section= 'ba_modes',
+        section= 'pa_modes',
     },
     {
       key    = "shareddynamicalliancevictory",
       name   = "Dynamic Ally Victory",
       desc   = "Ingame alliance should count for game over condition.",
       type   = "bool",
-	  section= 'ba_modes',
+	  section= 'pa_modes',
       def    = false,
     },
     {
@@ -72,7 +72,7 @@ local options={
 		desc   = "Commanders survive DGuns and other commanders explosions",
 		type   = "bool",
 		def    = false,
-		section= "ba_modes",
+		section= "pa_modes",
     },
     {
 		key="mo_transportenemy",
@@ -80,7 +80,7 @@ local options={
 		desc="Toggle which enemy units you can kidnap with an air transport",
 		type="list",
 		def="notcoms",
-		section="ba_options",
+		section="pa_options",
 		items={
 			{key="notcoms", name="All But Commanders", desc="Only commanders are immune to napping"},
 			{key="none", name="Disallow All", desc="No enemy units can be napped"},
@@ -92,7 +92,7 @@ local options={
         desc   = "Tells each team the total number of commanders alive in enemy teams",
         type   = "bool",
         def    = true,
-        section= "ba_others",
+        section= "pa_others",
     },
     {
         key    = 'FixedAllies',
@@ -100,7 +100,7 @@ local options={
         desc   = 'Disables the possibility of players to dynamically change alliances ingame',
         type   = 'bool',
         def    = true,
-        section= "ba_others",
+        section= "pa_others",
     },
     {
 		key    = "mo_no_close_spawns",
@@ -108,7 +108,7 @@ local options={
 		desc   = "Prevents players startpoints being placed close together (on large enough maps)",
 		type   = "bool",
 		def    = true,
-		section= "ba_options",
+		section= "pa_options",
     },
     {
         key    = "mo_heatmap",
@@ -116,7 +116,7 @@ local options={
         desc   = "Attemps to prevents unit paths to cross",
         type   = "bool",
         def    = true,
-        section= "ba_options",
+        section= "pa_options",
     },
     {
 		key    = "mo_newbie_placer",
@@ -124,7 +124,7 @@ local options={
 		desc   = "Chooses a startpoint and a random faction for all rank 1 accounts (online only)",
 		type   = "bool",
 		def    = false,
-		section= "ba_options",
+		section= "pa_options",
     },
 	{
 		key    = "critters",
@@ -132,14 +132,14 @@ local options={
 		desc   = "On some maps critters will they wiggle and wubble around\nkey: critters",
 		type   = "bool",
 		def    = true,
-		section= "ba_others",
+		section= "pa_others",
 	},
     {
         key    = 'critters_multiplier',
         name   = 'How many cute amimals?)',
         desc   = 'This multiplier will be applied on the amount of critters a map will end up with',
         type   = 'number',
-        section= 'ba_others',
+        section= 'pa_others',
         def    = 1,
         min    = 0.2,
         max    = 2,
@@ -152,7 +152,7 @@ local options={
 		desc   = "Adds some presets to units that allow for better pathing and more agile movement",		
 		type="list",
 		def="disabled",
-		section= "ba_options",
+		section= "pa_options",
 		items={
 			{key="disabled", name="Disabled", desc=""},
 			{key="enabled", name="Enabled", desc="Adds some presets to units that allow for better pathing and more agile movement"},
@@ -162,10 +162,10 @@ local options={
 	{
 		key    = "firethroughfriendly",
 		name   = "Fire Through Friendly Units",
-		desc   = "Causes weapons not to collide with nor avoid friendly units resulting in very TA style gameplay. *Note* Balanced Annihilation is one of very few games that cause friendly units to block fire.",		
+		desc   = "Causes weapons not to collide with nor avoid friendly units resulting in very TA style gameplay. *Note* Phoenix Annihilation is one of very few games that cause friendly units to block fire.",		
 		type="list",
 		def="disabled",
-		section= "ba_options",
+		section= "pa_options",
 		items={
 			{key="disabled", name="Disabled", desc=""},
 			{key="enabled", name="Enabled", desc="Causes weapons not to collide with nor avoid friendly units resulting in very TA style gameplay."},
@@ -178,7 +178,7 @@ local options={
 		desc   = "Small rocks/trees/unit wrecks will no longer block unit pathing",		
 		type="list",
 		def="disabled",
-		section= "ba_options",
+		section= "pa_options",
 		items={
 			{key="disabled", name="Disabled", desc=""},
 			{key="enabled", name="Enabled", desc="Small rocks/trees/unit wrecks will no longer block unit pathing"},

@@ -22,7 +22,7 @@
 function gadget:GetInfo()
   return {
     name      = "CustomIcons",
-    desc      = "Sets custom unit icons for BA",
+    desc      = "Sets custom unit icons for PA",
     author    = "trepan,BD,TheFatController",
     date      = "Jan 8, 2007",
     license   = "GNU GPL, v2 or later",

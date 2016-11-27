@@ -1,7 +1,7 @@
 function widget:GetInfo()
 	return {
-		name = "BA Hotkeys",
-		desc = "Enables BA Hotkeys, including ZXCV,BN,YJ,O,Q" ,
+		name = "PA Hotkeys",
+		desc = "Enables PA Hotkeys, including ZXCV,BN,YJ,O,Q" ,
 		author = "Beherith",
 		date = "23 march 2012",
 		license = "GNU LGPL, v2.1 or later",
@@ -212,7 +212,7 @@ function widget:Shutdown()
     UnloadBindings()
     WG.Reload_BA_Hotkeys = nil
 
-    if widgetHandler.orderList and (widgetHandler.orderList["BA Hotkeys -- swap YZ"] or 0) > 0 then
-        widgetHandler:DisableWidget("BA Hotkeys -- swap YZ")
+    if widgetHandler.orderList and (widgetHandler.orderList["PA Hotkeys -- swap YZ"] or 0) > 0 then
+        widgetHandler:DisableWidget("PA Hotkeys -- swap YZ")
     end
 end

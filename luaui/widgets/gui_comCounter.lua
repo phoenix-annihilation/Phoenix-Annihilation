@@ -162,7 +162,7 @@ function widget:UnitDestroyed(unitID, unitDefID, unitTeam)
 	countChanged = true
 end
 
--- BA does not allow sharing to enemy, so no need to check Given, Taken, etc
+-- PA does not allow sharing to enemy, so no need to check Given, Taken, etc
 
 function widget:Initialize()
 	--recount needed in case GameStart not called
