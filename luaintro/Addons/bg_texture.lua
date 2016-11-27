@@ -17,6 +17,8 @@ end
 local loadscreens = VFS.DirList("bitmaps/loadpictures/")
 local screenNum = math.random(#loadscreens) 
 local backgroundTexture = loadscreens[screenNum]
+-- Override random background with phoenix.
+backgroundTexture = "bitmaps/loadpictures/phoenixannihilation4.jpg"
 local aspectRatio
 
 function addon.DrawLoadScreen()
