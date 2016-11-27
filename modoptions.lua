@@ -172,19 +172,6 @@ local options={
 		}
     },
 	
-	{
-		key    = "smallfeaturenoblock",
-		name   = "Set small features to non-blocking status",
-		desc   = "Small rocks/trees/unit wrecks will no longer block unit pathing",		
-		type="list",
-		def="disabled",
-		section= "pa_options",
-		items={
-			{key="disabled", name="Disabled", desc=""},
-			{key="enabled", name="Enabled", desc="Small rocks/trees/unit wrecks will no longer block unit pathing"},
-		}
-    },
-	
 -- Control Victory Options	
 	{
 		key    = 'controlvictoryoptions',
