@@ -1,4 +1,29 @@
--- license: BA/BAR only.
+--[[
+  ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * As long as you retain this notice you can do whatever you want with this stuff.
+ * If we meet some day, and you think this stuff is worth it,
+ * you can buy me a beer in return.   [Fx]Bluestone
+ * ----------------------------------------------------------------------------
+--]]
+ 
+--[[
+  ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * As long as you retain this notice you can do whatever you want with this stuff.
+ * If we meet some day, and you think this stuff is worth it,
+ * you can buy me a beer in return.   [Fx]Bluestone
+ * ----------------------------------------------------------------------------
+--]]
+
+--[[
+  ----------------------------------------------------------------------------
+ * This file was licensed as BEER-WARE, and then immediately sub-licensed as BEER-WARE
+ * This means you would buy me TWO beers  
+ * I accept horses if beers are not available in your country
+ * ----------------------------------------------------------------------------
+--]]
+
 
 allyTeamDeathMessages = {
 	--ated
@@ -24,6 +49,7 @@ allyTeamDeathMessages = {
 	"XX has been incinerated",
 	"XX has been decapitated",
 	"XX has been floccinaucinihilipilificated",
+	"XX has been consummated", 
 
 	--ized
 	"XX has been hospitalized",
@@ -391,7 +417,7 @@ teamDeathMessages = {
 	"XX won't look back in anger",	
 	"XX was way past its bedtime",
 	"XX was torn down to make way for overflow parking",
-	"XX has been sent to the recycle bin",
+	"XX was moved to the recycle bin",
 	"XX has no need of further assistance",
 	"XX died of plague",
 	"XX went the way of the dinosaurs",
@@ -642,7 +668,7 @@ teamDeathMessages = {
 	"XX will be put up for auction",
 	"XX has pneumonoultramicroscopicsilicovolcanoconiosis",
 	"XX is having lobster thermidor aux crevettes, with a mornay sauce garnished with truffle pate, brandy and a fried egg on top and spam",
-	"XX died while balls deep in a squealing hog, firing a shotgun into the air",
+	"XX died whilst balls deep in a squealing hog, firing a shotgun into the air",
 	"XX will clean up the chunks of dead prostitute",
 	"XX acted out one too many lumberjack fantasies",
 	"XX drowned in a pool of childrens tears",
@@ -769,7 +795,7 @@ teamDeathMessages = {
     "XX is not bad, just drawn that way",
     "XX took to the skies",
     "XX retired hurt",
-    "XX paid $1.35m for work carried out nine years ago under an oral contract, and was banned from all related activity for eight years",
+    "XX paid $1.35m for work carried out nine years ago under an oral contract, and was banned from all football related activity for eight years",
     "XX is the president of everybody",
     "XX was a fixed function pipeline",
     "XX has a ticket to the moon",
@@ -782,20 +808,103 @@ teamDeathMessages = {
     "XX was just faking",
     "XX really tied the room together",
     "XX put Baby in a corner",
-    "XX used Subionic's script",
+    "XX was bought to you by Subionic's script",
+	"XX was bought to you by the great taste of Charleston Chew",
     "XX played it cool",
     "XX never meant any of this",
-    "XX devaluated",
+    "XX was devalued",
     "XX made mistakes",
     "XX looked the other way",
-    "XX doesn't agree with the balance",
-    "XX was fatefull",
-    "XX doesn't accept reality",
-    "XX doesn't accept virtual reality",
-    "XX storms out",
-    
-}
-    
+    "XX will be rebalanced",
+    "XX was swallowed into the gaping jaws of fate",
+    "XX hates reality",
+    "XX needs more imagination",
+    "XX stormed out",
+	"XX mostly eats plants",
+	"XX is full of eels",
+	"XX flew over the cuckoo's nest",
+    "XX democratically voted to leave the European Union",
+	"XX made America great again",
+	"XX will build a great, great wall on our southern border, and XX will make Mexico pay for that wall",
+	"XX would rather see the sunrise",
+	"XX died peacefully in its sleep",
+	"XX always wondered about that taping equipment",
+	"XX did not have sexual relations with that women",
+	"XX will seek no wider war",
+	"XX dropped off",
+	"XX reached its logical conclusion",
+	"XX was dissolved",
+	"XX fell into the crack of doom",
+	"XX blew its last trumpet",
+	"XX fell into the lap of the Gods",
+	"XX was only temporary",
+	"XX closed its doors",
+	"XX annexed Crimea",
+	"XX got a salty surprise",
+	"XX deported itself",
+	"XX is gonna need a bigger boat",
+	"XX slipped into last place",
+	"XX toppled off the podium",
+	"XX was laid to rest",
+	"XX was reverted",
+	"XX went mouldy",
+	"XX looked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which",
+	"Somewhere, a little XX and his Bear will always be playing",
+	"All too soon XX bleeds into a wash",
+	"XX loved Big Brother",
+	"XX left China farther and farther behind",
+	"From so simple a XX endless forms most beautiful and most wonderful have been",
+	"XX's diarrhoea persisted through the twenty-sixth, and was a problem on the train to Tokyo",
+	"'From the Land of Oz,' said XX gravely. 'And here is Toto, too. And oh, Aunt Em! I'm so glad to be at home again!",
+	"XX is haunted by humans",
+	"XX carries a lot of scars",
+	"XX was soon borne away by the waves and lost in darkness and distance",
+	"XX slipped away, running easily down through the wood, where the first primroses were beginning to bloom",
+	"XX resolves to spend the remainder of its years in sincere penitence",
+	"XX invaded Poland",
+	"XX went full circle",
+	"XX was sucked into the annihilating whirlpool of the multitudes",
+	"XX floats through balcony doors and makes the curtains dance",
+	"XX rose and fell",
+	"XX was retracted",
+	"XX blew itself out",
+	"XX was a temporary filling in the great mouth of life",
+	"XX is temporarily unavailable",
+	"XX is available for birthdays, weddings and family gatherings",
+	"XX fell down",
+	"XX tripped on a curb",
+	"XX laid back and thought of England",
+	"XX was ninety eight cents of chemicals walking around lonely",
+	"XX was totally annihilated",
+	"XX smacked the pony",
+	"XX jumped two hundred feet into the air and scattered itself across the surrounding countryside",
+	"XX went through a glass darkly",
+	"Could XX stop getting shot?",
+	"I can dig it, he can dig it, she can dig it, we can dig it, they can dig it, you can dig it, oh let's dig it. Can you dig it, XX?",
+	"XX is living in its own private Idaho",
+	"XX fell into a burning ring of fire",
+	"XX was generally looked upon as a cancerous growth attached to Spring",
+	"XX has been a poorly maintained pile of junk for many, many years",
+	"XX went down down down and the flames went higher",
+	"XX went to the great gig in the sky",
+	"XX was born with a plastic spoon in its mouth",
+	"All lies and jest, still, XX hears what it wants to hear and disregards the rest",
+	"XX didn't stop believing",
+	"Should old XX should be forgot and never bought to mind?",
+	"XX was born to run",
+	"XX is singing in the rain",
+	"XX imagined all the people",
+	"XX don't need no education",
+	
+	
+	
+
+
+
+
+
+
+}    
     
     
 
