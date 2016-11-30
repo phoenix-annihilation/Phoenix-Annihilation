@@ -16,8 +16,9 @@ end
 
 local loadscreens = VFS.DirList("bitmaps/loadpictures/")
 local screenNum = math.random(#loadscreens) 
---local backgroundTexture = loadscreens[screenNum]
-local backgroundTexture = loadscreens[1+(math.floor((1000*os.clock())%#loadscreens))] -- hacky hotfix for http://springrts.com/mantis/view.php?id=4572
+local backgroundTexture = loadscreens[screenNum]
+-- Override random background with phoenix.
+backgroundTexture = "bitmaps/loadpictures/phoenixannihilation4.jpg"
 local aspectRatio
 
 function addon.DrawLoadScreen()
