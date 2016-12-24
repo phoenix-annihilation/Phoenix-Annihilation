@@ -6,13 +6,8 @@
 - Options: combined fps/clock/gamespeed, removed advsky toggle, treeview slider, high-res los toggle
 - Options: shadows has toggle when shadow quality manager widget is active, else it has a slider
 - Options: allows inverse scrollspeed
-- Flash tank: stripped burst fire (per turret), now its continuesly firing (no balance change)
 - Added modoptions (created by Forboding Angel):
 - modoption: controlvictoryoptions (control areas to win game)
-- modoption: betterunitmovement (units accelerate/respond faster and turn better)
-- modoption: firethroughfriendly (you can fire through allied units)
-- modoption: smallfeaturenoblock (you can fire through smaal features/wreckage 2x2)
-
 
 9.44 -> 9.45
 19/09/2016
@@ -26,7 +21,6 @@
 18/09/2016
 
 - Added Options widget
-- We are on 'Discord' at: discord.gg/aDtX3hW (pregame: above advplayerslist is discord icon)
 - Ready/sub button appearance/size change and scales with resolution
 - Projectile lights widget has enhanced performance (by roink[vegan])
 - fixed: partially built planes being incorrectly recognized as damaged and sent to repair pads
