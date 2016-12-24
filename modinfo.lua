@@ -1,6 +1,6 @@
 return {
   name='Phoenix Annihilation',
-  description='From The Ashes Of Balanced Annihilation',
+  description='From The Ashes a Phoenix is Born',
   shortname='PA',
   version='$VERSION',
   mutator='Official',
