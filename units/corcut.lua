@@ -10,7 +10,7 @@ return {
 		canmove = true,
 		cansubmerge = true,
 		category = "ALL MOBILE WEAPON VTOL ANTIFLAME ANTIEMG ANTILASER NOTLAND NOTSUB NOTSHIP NOTHOVER",
-		collide = true,
+		collide = false,
 		cruisealt = 100,
 		description = "Seaplane Gunship",
 		energymake = 0.6,
@@ -34,7 +34,6 @@ return {
 		sightdistance = 595,
 		turninplaceanglelimit = 360,
 		turnrate = 828,
-		blocking = false,
 		sounds = {
 			build = "nanlath1",
 			canceldestruct = "cancel2",

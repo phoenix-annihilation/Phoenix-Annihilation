@@ -9,7 +9,7 @@ return {
 		canfly = true,
 		canmove = true,
 		category = "ALL WEAPON NOTSUB VTOL NOTHOVER",
-		collide = true,
+		collide = false,
 		cruisealt = 110,
 		description = "Rapid Assault Gunship",
 		energymake = 0.8,
@@ -33,7 +33,6 @@ return {
 		sightdistance = 624,
 		turninplaceanglelimit = 360,
 		turnrate = 720,
-		blocking = false,
 		sounds = {
 			canceldestruct = "cancel2",
 			underattack = "warning1",

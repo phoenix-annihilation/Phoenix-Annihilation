@@ -9,7 +9,7 @@ return {
 		canfly = true,
 		canmove = true,
 		category = "ALL MOBILE WEAPON VTOL NOTSUB NOTHOVER",
-		collide = true,
+		collide = false,
 		collisionvolumeoffsets = "0 -3 0",
 		collisionvolumescales = "24 9 24",
 		collisionvolumetype = "CylY",
@@ -35,7 +35,6 @@ return {
 		sightdistance = 390,
 		stealth = true,
 		turnrate = 396,
-		blocking = false,
 		sounds = {
 			canceldestruct = "cancel2",
 			underattack = "warning1",

@@ -9,7 +9,7 @@ return {
 		canfly = true,
 		canmove = true,
 		category = "ALL NOTLAND MOBILE NOTSUB VTOL NOWEAPON NOTSHIP NOTHOVER",
-		collide = true,
+		collide = false,
 		collisionvolumeoffsets = "1 1 5",
 		collisionvolumescales = "52 21 52",
 		collisionvolumetype = "CylY",
@@ -40,7 +40,6 @@ return {
 		transportsize = 15,
 		turninplaceanglelimit = 360,
 		turnrate = 420,
-		blocking = false,
 		customparams = {
 			paralyzemultiplier = 0.025,
 		},

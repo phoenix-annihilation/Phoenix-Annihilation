@@ -9,7 +9,7 @@ return {
 		canfly = true,
 		canmove = true,
 		category = "ALL WEAPON NOTSUB VTOL NOTHOVER",
-		collide = true,
+		collide = false,
 		cruisealt = 150,
 		description = "Atomic Bomber",
 		energyuse = 40,
@@ -32,7 +32,6 @@ return {
 		selfdestructas = "BIG_UNITEX",
 		sightdistance = 455,
 		turnrate = 535,
-		blocking = false,
 		sounds = {
 			canceldestruct = "cancel2",
 			underattack = "warning1",

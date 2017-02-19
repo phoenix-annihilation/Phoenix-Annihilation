@@ -9,7 +9,7 @@ return {
 		canfly = true,
 		canmove = true,
 		category = "ALL NOTLAND MOBILE WEAPON NOTSUB ANTIFLAME ANTIEMG ANTILASER VTOL NOTSHIP NOTHOVER",
-		collide = true,
+		collide = false,
 		cruisealt = 220,
 		description = "Strategic Bomber",
 		energymake = 1.8,
@@ -32,7 +32,6 @@ return {
 		selfdestructas = "BIG_UNIT_AIR",
 		sightdistance = 260,
 		turnrate = 402,
-		blocking = false,
 		sounds = {
 			canceldestruct = "cancel2",
 			underattack = "warning1",

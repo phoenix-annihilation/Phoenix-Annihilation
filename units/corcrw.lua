@@ -10,7 +10,7 @@ return {
 		canfly = true,
 		canmove = true,
 		category = "ALL WEAPON VTOL NOTSUB NOTHOVER",
-		collide = true,
+		collide = false,
 		cruisealt = 80,
 		description = "Flying Fortress",
         energymake = 50,
@@ -34,7 +34,6 @@ return {
 		turninplaceanglelimit = 360,
 		turnrate = 297,
 		upright = true,
-		blocking = false,
 		sounds = {
 			canceldestruct = "cancel2",
 			underattack = "warning1",

@@ -11,7 +11,7 @@ return {
 		canfly = true,
 		canmove = true,
 		category = "ALL NOTLAND MOBILE NOTSUB ANTIFLAME ANTIEMG ANTILASER VTOL NOWEAPON NOTSHIP NOTHOVER",
-		collide = true,
+		collide = false,
 		cruisealt = 80,
 		description = "Tech Level 2",
 		energymake = 10,
@@ -40,7 +40,6 @@ return {
 		turninplaceanglelimit = 360,
 		turnrate = 138,
 		workertime = 100,
-		blocking = false,
 		buildoptions = {
 			[1] = "armfus",
 			[2] = "armckfus",

@@ -12,7 +12,7 @@ return {
 		canmove = true,
 		cansubmerge = true,
 		category = "ALL NOTLAND MOBILE NOTSUB ANTIFLAME ANTIEMG ANTILASER VTOL NOWEAPON NOTSHIP NOTHOVER",
-		collide = true,
+		collide = false,
 		cruisealt = 50,
 		description = "Tech Level 2",
 		energymake = 20,
@@ -40,7 +40,6 @@ return {
 		turninplaceanglelimit = 360,
 		turnrate = 148,
 		workertime = 110,
-		blocking = false,
 		buildoptions = {
 			[1] = "armap",
 			[2] = "armaap",
