@@ -567,6 +567,37 @@ QueryWeapon4(Func_Var_1)
 	Func_Var_1 = 26;
 }
 
+// FIXME: The crush weapons should be synchronised with the animation, similar to the Krogoth
+AimWeapon5(heading, pitch)
+{
+	return (1);
+}
+
+AimFromWeapon5(piecenum)
+{
+	piecenum = FRfoot;
+}
+
+QueryWeapon5(piecenum)
+{
+	piecenum = FRfoot;
+}
+
+AimWeapon6(heading, pitch)
+{
+	return (1);
+}
+
+AimFromWeapon6(piecenum)
+{
+	piecenum = FLfoot;
+}
+
+QueryWeapon6(piecenum)
+{
+	piecenum = FLfoot;
+}
+
 Killed(severity, corpsetype)
 {
 	hide lflare;
