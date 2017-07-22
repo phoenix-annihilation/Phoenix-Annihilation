@@ -51,10 +51,6 @@ local function HilightModel(unitID)
   gl.PolygonOffset(-2, -2)
   gl.Blending(GL.SRC_ALPHA, GL.ONE)
 
-  if (smoothPolys) then
-    gl.Smoothing(nil, nil, true)
-  end
-
   local scale = 35
   local shift = (2 * widgetHandler:GetHourTimer()) % scale
   gl.TexCoord(0, 0)
@@ -66,10 +62,6 @@ local function HilightModel(unitID)
 
   gl.Texture(false)
   gl.TexGen(GL.T, false)
-
-  if (smoothPolys) then
-    gl.Smoothing(nil, nil, false)
-  end
 
   gl.Blending(GL.SRC_ALPHA, GL.ONE_MINUS_SRC_ALPHA)
   gl.PolygonOffset(false)

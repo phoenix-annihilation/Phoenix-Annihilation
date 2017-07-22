@@ -87,7 +87,6 @@ prevCam[1],prevCam[2],prevCam[3] = spGetCameraPosition()
 
 local edgeExponent			= 1.5
 local highlightOpacity		= 2.3
-local smoothPolys			= gl.Smoothing			-- looks a lot nicer, esp. without FSAA  (but eats into the FPS too much)
 
 -- preferred to keep these values the same as fancy unit selections widget
 local rectangleFactor		= 3.3
@@ -346,10 +345,6 @@ function widget:DrawWorld()
 		local unitZ = false
 		
 		if visibleUnitsCount > 0 then
-			if (smoothPolys) then
-				gl.Smoothing(nil, nil, true)
-			end
-
 			gl.Color(1, 1, 1, 0.7)
 			gl.UseShader(shader)
 			gl.DepthTest(true)
@@ -374,9 +369,6 @@ function widget:DrawWorld()
 			gl.UseShader(0)
 			gl.Color(1, 1, 1, 0.7)
 			
-			if (smoothPolys) then
-				gl.Smoothing(nil, nil, false)
-			end
 		end
 	end
 end
