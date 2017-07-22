@@ -122,7 +122,7 @@ if (gadgetHandler:IsSyncedCode()) then
 					spSetPieceCollisionData(unitID, pieceIndex + 1, false, 1, 1, 1, 0, 0, 0, 1, 1)
 				end
 			end
-		elseif UnitDefs[unitDefID].model.type=="3do" then
+		elseif UnitDefs[unitDefID].modeltype=="3do" then
 			local rs, hs, ws
 			local r = spGetUnitRadius(unitID) 
 			if (r>47 and not UnitDefs[unitDefID].canFly) then
