@@ -212,7 +212,7 @@ return {
 				cratermult = 0,
 				cylindertargeting = 1,
 				edgeeffectiveness = 0.45,
-				explosiongenerator = "custom:GORGCRUSHE",
+				explosiongenerator = "custom:KROGCRUSHE",
 				firestarter = 40,
 				impulseboost = 8,
 				impulsefactor = 8,
