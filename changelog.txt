@@ -1,4 +1,25 @@
-﻿9.45 -> 9.46
+﻿1.00
+2017-07-31
+
+Cleanup:
+- Removed modoptions "smallfeaturenoblock", "firethroughfriendly".
+- Removed widget "gui_discord".
+
+Balance:
+- Removed airplane collisions.
+- Set all airplanes to blocking, so they cannot stack when landed.
+- Krogoth and Juggernaut crush landed airplanes instantly.
+- Restored burst fire of the flash tank.
+
+Bugfixes:
+- Restored aircraft's 50% chance of crashing when destroyed while flying.
+- Disabled "allowGroundUnitGravity". Should fix units getting stuck on cliffs
+and flying across the map after unload.
+- Small fixes.
+
+
+============= Standing on the shoulders of Balanced Annihilation =============
+9.45 -> 9.46
 22/09/2016
 
 - Ready/substitute button smaller
