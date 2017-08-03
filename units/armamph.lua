@@ -60,6 +60,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "55.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 500,
 				description = "Pelican Heap",
 				energy = 0,
@@ -69,8 +71,6 @@ return {
 				hitdensity = 100,
 				metal = 64,
 				object = "3X3D",
-                collisionvolumescales = "55.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

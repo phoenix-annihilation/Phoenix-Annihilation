@@ -1,6 +1,7 @@
 return {
 	armfido = {
 		acceleration = 0.12,
+		activatewhenbuilt = true,
 		brakerate = 1.125,
 		buildcostenergy = 5615,
 		buildcostmetal = 270,
@@ -29,7 +30,6 @@ return {
 		nochasecategory = "VTOL",
 		objectname = "ARMFIDO",
 		onoffable = true,
-		activateWhenBuilt = true,
 		seismicsignature = 0,
 		selfdestructas = "BIG_UNIT",
 		sightdistance = 400,
@@ -61,6 +61,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 600,
 				description = "Fido Heap",
 				energy = 0,
@@ -71,8 +73,6 @@ return {
 				hitdensity = 100,
 				metal = 66,
 				object = "2X2A",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

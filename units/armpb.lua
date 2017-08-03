@@ -59,6 +59,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "55.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 760,
 				description = "Pit Bull Heap",
 				energy = 0,
@@ -69,8 +71,6 @@ return {
 				hitdensity = 100,
 				metal = 140,
 				object = "3X3D",
-                collisionvolumescales = "55.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

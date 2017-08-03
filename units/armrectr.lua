@@ -66,6 +66,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 344,
 				description = "Rector Heap",
 				featurereclamate = "SMUDGE01",
@@ -75,8 +77,6 @@ return {
 				hitdensity = 100,
 				metal = 36,
 				object = "2X2D",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

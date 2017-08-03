@@ -59,6 +59,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "55.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 149,
 				description = "Nixer Heap",
 				energy = 0,
@@ -68,8 +70,6 @@ return {
 				hitdensity = 100,
 				metal = 48,
 				object = "3X3C",
-                collisionvolumescales = "55.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

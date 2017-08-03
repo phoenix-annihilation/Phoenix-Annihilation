@@ -58,6 +58,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "85.0 14.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 413,
 				description = "Floating Targeting Facility Heap",
 				energy = 0,
@@ -68,8 +70,6 @@ return {
 				hitdensity = 100,
 				metal = 179,
 				object = "4X4D",
-                collisionvolumescales = "85.0 14.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

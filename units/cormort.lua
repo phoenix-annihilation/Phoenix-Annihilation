@@ -60,6 +60,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 400,
 				description = "Morty Heap",
 				energy = 0,
@@ -69,8 +71,6 @@ return {
 				hitdensity = 100,
 				metal = 47,
 				object = "2X2A",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				world = "All Worlds",

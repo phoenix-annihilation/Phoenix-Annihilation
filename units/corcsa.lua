@@ -52,7 +52,6 @@ return {
 			[9] = "coruwadves",
 			[10] = "coruwadvms",
 			[11] = "corenaa",
---			[12] = "coratl",
 			[12] = "corason",
 		},
 		sounds = {

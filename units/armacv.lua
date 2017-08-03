@@ -102,6 +102,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "55.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 1000,
 				description = "Advanced Construction Vehicle Heap",
 				energy = 0,
@@ -112,8 +114,6 @@ return {
 				hitdensity = 100,
 				metal = 112,
 				object = "3X3A",
-                collisionvolumescales = "55.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

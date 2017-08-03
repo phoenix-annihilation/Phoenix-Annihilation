@@ -68,6 +68,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 350,
 				description = "Pillager Heap",
 				energy = 0,
@@ -78,8 +80,6 @@ return {
 				hitdensity = 100,
 				metal = 55,
 				object = "2X2B",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

@@ -64,6 +64,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 2016,
 				description = "Archer Heap",
 				energy = 0,
@@ -73,8 +75,6 @@ return {
 				hitdensity = 100,
 				metal = 164,
 				object = "2X2B",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

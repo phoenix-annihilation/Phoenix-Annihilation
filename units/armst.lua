@@ -43,9 +43,9 @@ return {
 		turninplaceanglelimit = 140,
 		turninplacespeedlimit = 1.64802,
 		turnrate = 701.79999,
-        customparams = {
-            paralyzemultiplier = 0.2,
-        },
+		customparams = {
+			paralyzemultiplier = 0.2,
+		},
 		featuredefs = {
 			dead = {
 				blocking = true,
@@ -71,6 +71,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 700,
 				description = "Gremlin Heap",
 				energy = 0,
@@ -81,8 +83,6 @@ return {
 				hitdensity = 100,
 				metal = 55,
 				object = "2X2B",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

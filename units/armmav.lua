@@ -60,6 +60,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 696,
 				description = "Maverick Heap",
 				featurereclamate = "smudge01",
@@ -69,8 +71,6 @@ return {
 				hitdensity = 100,
 				metal = 196,
 				object = "2x2e",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "tree1reclamate",

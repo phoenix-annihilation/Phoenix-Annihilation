@@ -72,6 +72,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "21.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 150,
 				description = "Parasite Heap",
 				energy = 0,
@@ -81,8 +83,6 @@ return {
 				hitdensity = 100,
 				metal = 40,
 				object = "1X1A",
-                collisionvolumescales = "21.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

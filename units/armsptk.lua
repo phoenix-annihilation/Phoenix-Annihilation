@@ -62,6 +62,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "55.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 500,
 				description = "Recluse Heap",
 				energy = 0,
@@ -72,8 +74,6 @@ return {
 				hitdensity = 100,
 				metal = 98,
 				object = "3X3A",
-                collisionvolumescales = "55.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",
@@ -105,9 +105,9 @@ return {
 			adv_rocket = {
 				areaofeffect = 72,
 				avoidfeature = false,
-				collidefriendly = false,
 				burst = 4,
 				burstrate = 0.3,
+				collidefriendly = false,
 				craterareaofeffect = 72,
 				craterboost = 0,
 				cratermult = 0,
@@ -138,7 +138,6 @@ return {
 				weapontimer = 6,
 				weapontype = "MissileLauncher",
 				weaponvelocity = 395,
---				wobble = 5400,
 				damage = {
 					default = 120,
 					subs = 5,

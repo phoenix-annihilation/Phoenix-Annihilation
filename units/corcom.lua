@@ -116,6 +116,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 5000,
 				description = "Commander Debris",
 				energy = 0,
@@ -126,8 +128,6 @@ return {
 				hitdensity = 100,
 				metal = 1250,
 				object = "2X2C",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",
@@ -173,18 +173,16 @@ return {
 				avoidfeature = false,
 				avoidfriendly = false,
 				avoidground = false,
+				bouncerebound = 0,
 				commandfire = true,
 				craterareaofeffect = 0,
 				craterboost = 0,
 				cratermult = 0,
-				--waterbounce = true, -- weapon will stick to the surface
-				groundbounce = true,
-				bounceRebound = 0, --stick the explosion to ground with 0 vertical component
-				waterweapon = true, --dgun can pass trough water
-				firesubmersed = false, -- but not _fire_ underwater
 				energypershot = 500,
 				explosiongenerator = "custom:DGUNTRACE",
 				firestarter = 100,
+				firesubmersed = false,
+				groundbounce = true,
 				impulseboost = 0,
 				impulsefactor = 0,
 				name = "Disintegrator",
@@ -199,6 +197,7 @@ return {
 				soundtrigger = true,
 				tolerance = 10000,
 				turret = true,
+				waterweapon = true,
 				weapontimer = 4.2,
 				weapontype = "DGun",
 				weaponvelocity = 300,

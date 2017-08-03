@@ -64,6 +64,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 400,
 				description = "Spider Heap",
 				energy = 0,
@@ -74,8 +76,6 @@ return {
 				hitdensity = 100,
 				metal = 43,
 				object = "2X2A",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",
@@ -107,8 +107,8 @@ return {
 			spider = {
 				areaofeffect = 8,
 				avoidfeature = false,
-				collidefriendly = false,
 				beamtime = 0.1,
+				collidefriendly = false,
 				corethickness = 0.2,
 				craterareaofeffect = 0,
 				craterboost = 0,

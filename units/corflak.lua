@@ -60,6 +60,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 497,
 				description = "Cobra Heap",
 				energy = 0,
@@ -70,8 +72,6 @@ return {
 				hitdensity = 100,
 				metal = 206,
 				object = "2X2D",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

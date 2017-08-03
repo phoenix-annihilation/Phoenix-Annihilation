@@ -63,6 +63,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "55.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 900,
 				description = "Annihilator Heap",
 				energy = 0,
@@ -73,8 +75,6 @@ return {
 				hitdensity = 100,
 				metal = 776,
 				object = "3X3B",
-                collisionvolumescales = "55.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",
@@ -106,8 +106,8 @@ return {
 			ata = {
 				areaofeffect = 16,
 				avoidfeature = false,
-				collideFriendly = false,
 				beamtime = 1.5,
+				collidefriendly = false,
 				corethickness = 0.2,
 				craterareaofeffect = 0,
 				craterboost = 0,

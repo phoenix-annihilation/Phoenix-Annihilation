@@ -66,6 +66,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "55.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 2700,
 				description = "Doomsday Machine Heap",
 				energy = 0,
@@ -76,8 +78,6 @@ return {
 				hitdensity = 100,
 				metal = 644,
 				object = "3X3E",
-                collisionvolumescales = "55.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

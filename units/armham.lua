@@ -61,6 +61,8 @@ return {
 			heap = {
 				blocking = false,
 				category = "heaps",
+				collisionvolumescales = "35.0 4.0 6.0",
+				collisionvolumetype = "cylY",
 				damage = 343,
 				description = "Hammer Heap",
 				energy = 0,
@@ -71,8 +73,6 @@ return {
 				hitdensity = 100,
 				metal = 32,
 				object = "2X2E",
-                collisionvolumescales = "35.0 4.0 6.0",
-                collisionvolumetype = "cylY",
 				reclaimable = true,
 				resurrectable = 0,
 				seqnamereclamate = "TREE1RECLAMATE",

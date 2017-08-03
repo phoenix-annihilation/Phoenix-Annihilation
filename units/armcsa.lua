@@ -52,7 +52,6 @@ return {
 			[9] = "armuwadves",
 			[10] = "armuwadvms",
 			[11] = "armfflak",
---			[12] = "armatl",
 			[12] = "armason",
 		},
 		sounds = {
