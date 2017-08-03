@@ -318,7 +318,7 @@ function SetUnitLuaDraw(unitID,draw)
   if (draw) then
     noDrawUnits[unitID] = (noDrawUnits[unitID] or 0) + 1
     if (noDrawUnits[unitID]==1) then
-      --if (Game.version=="0.76b1") then
+      --if (Engine.version=="0.76b1") then
         Spring.UnitRendering.SetLODCount(unitID,1)
         for pieceID,pieceName in pairs(Spring.GetUnitPieceList(unitID) or {}) do
           if (pieceID~="n") then
@@ -332,7 +332,7 @@ function SetUnitLuaDraw(unitID,draw)
   else
     noDrawUnits[unitID] = (noDrawUnits[unitID] or 0) - 1
     if (noDrawUnits[unitID]==0) then
-      --if (Game.version=="0.76b1") then
+      --if (Engine.version=="0.76b1") then
         for pieceID,pieceName in pairs(Spring.GetUnitPieceList(unitID) or {}) do
           if (pieceID~="n") then
             Spring.UnitRendering.SetPieceList(unitID,1,pieceID)

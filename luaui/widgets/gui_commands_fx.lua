@@ -73,7 +73,7 @@ local maxGroundGlowCount  = 80
 local drawUnitHightlightMaxUnits = 80
 
 local glowImg			= ":n:"..LUAUI_DIRNAME.."Images/commandsfx/glow.dds"
-local lineImg			= ":n:"..LUAUI_DIRNAME.."Images/commandsfx/line2.dds"
+local lineImg			= ":n:"..LUAUI_DIRNAME.."Images/commandsfx/line.dds"
 
 
 local mapX = Game.mapSizeX
