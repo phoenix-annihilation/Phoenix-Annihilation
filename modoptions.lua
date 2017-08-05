@@ -146,19 +146,6 @@ local options={
         step   = 0.2,
     },
     
-    {
-		key    = "betterunitmovement",
-		name   = "Advanced Unit Movement and Pathing",
-		desc   = "Adds some presets to units that allow for better pathing and more agile movement",		
-		type="list",
-		def="disabled",
-		section= "pa_options",
-		items={
-			{key="disabled", name="Disabled", desc=""},
-			{key="enabled", name="Enabled", desc="Adds some presets to units that allow for better pathing and more agile movement"},
-		}
-    },
-	
 -- Control Victory Options	
 	{
 		key    = 'controlvictoryoptions',
