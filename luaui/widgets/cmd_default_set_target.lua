@@ -44,7 +44,8 @@ function hasSetTarget(unitDefID)
 end
 
 function widget:DefaultCommand()
-	local targettype,data = TraceScreenRay(GetMouseState())
+	local mouseX, mouseY = GetMouseState()
+	local targettype, data = TraceScreenRay(mouseX, mouseY)
 	if targettype ~= "unit" or IsUnitAllied(data) then
 		return
 	end

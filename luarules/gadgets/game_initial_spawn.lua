@@ -104,7 +104,7 @@ function isPlayerNewbie(pID)
 	local customtable
 	local name,_,isSpec,tID,_,_,_,_,pRank = Spring.GetPlayerInfo(pID) 
 	playerRank = tonumber(pRank) or 0
-	customtable = select(10,Spring.GetPlayerInfo(pID)) or {}
+	customtable = select(11, Spring.GetPlayerInfo(pID)) or {}
 	local tsMu = tostring(customtable.skill) or ""
 	local tsSigma = tonumber(customtable.skilluncertainty) or 3
 	local isNewbie
