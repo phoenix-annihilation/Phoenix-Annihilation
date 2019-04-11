@@ -1,7 +1,17 @@
-﻿1.01
+﻿1.02
+
+Updates for Spring 104:
+- Replaced 'select(10, Spring.GetPlayerInfo(playerID))' with 'select(11, Spring.GetPlayerInfo(playerID))' because Spring.GetPlayerInfo(playerID) return value was changed (new HasSkirmishAIsInTeam boolean flag added)
+- Updates usage of Spring.GetGroundInfo, because this function now returns [number index, string name, ...] instead of [string name, ...]
+- Removed usage of CMD.SET_WANTED_MAX_SPEED (removed from engine)
+
+Widgets:
+- CustomFormations2: Removed ability to set same speed to selected units when giving orders(CTRL) (because CMD.SET_WANTED_MAX_SPEED was removed)
+
+1.01
 2017-09-28
 
-Update for spring-104
+Updates for spring-104
 
 Cleanup:
 - Removed modoption "betterunitmovement"

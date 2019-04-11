@@ -37,14 +37,14 @@ function gadget:Initialize()
     -- give each team the CEG corresponding to the player with the lowest skillClass in that team
     local gaiaTeamID = Spring.GetGaiaTeamID()
     local teamList = Spring.GetTeamList()
-    for _,tID in pairs(teamList) do
-        if tID==gaiaTeamID then
+    for _, tID in pairs(teamList) do
+        if tID == gaiaTeamID then
             teamCEG[tID] = COMMANDER_EXPLOSION
         else
             local playerList = Spring.GetPlayerList(tID)
             local teamSkillClass = 5
-            for _,pID in pairs(playerList) do
-                local customtable = select(10,Spring.GetPlayerInfo(pID))
+            for _, pID in pairs(playerList) do
+                local customtable = select(11, Spring.GetPlayerInfo(pID))
                 local skillClass = customtable.skillclass -- 1 (1st), 2 (top5), 3 (top10), 4 (top20), 5 (other) 
                 teamSkillClass = math.min(teamSkillClass, skillClass or 5)
             end

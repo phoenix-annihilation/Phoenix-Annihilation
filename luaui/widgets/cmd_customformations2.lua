@@ -77,9 +77,20 @@ local overrideCmds = {
 
 -- What commands can be issued at a position or unit/feature ID (Only used by GetUnitPosition)
 local positionCmds = {
-	[CMD.MOVE]=true,		[CMD.ATTACK]=true,		[CMD.RECLAIM]=true,		[CMD.RESTORE]=true,		[CMD.RESURRECT]=true,
-	[CMD.PATROL]=true,		[CMD.CAPTURE]=true,		[CMD.FIGHT]=true, 		[CMD.MANUALFIRE]=true,	
-	[CMD.UNLOAD_UNIT]=true,	[CMD.UNLOAD_UNITS]=true,[CMD.LOAD_UNITS]=true,	[CMD.GUARD]=true,		[CMD.AREA_ATTACK] = true,
+	[CMD.MOVE]=true,
+	[CMD.ATTACK]=true,
+	[CMD.RECLAIM]=true,
+	[CMD.RESTORE]=true,
+	[CMD.RESURRECT]=true,
+	[CMD.PATROL]=true,
+	[CMD.CAPTURE]=true,
+	[CMD.FIGHT]=true,
+	[CMD.MANUALFIRE]=true,
+	[CMD.UNLOAD_UNIT]=true,
+	[CMD.UNLOAD_UNITS]=true,
+	[CMD.LOAD_UNITS]=true,
+	[CMD.GUARD]=true,
+	[CMD.AREA_ATTACK] = true,
 	[CMD_SETTARGET] = true -- set target
 }
 
@@ -152,7 +163,6 @@ local spGiveOrder = Spring.GiveOrder
 local spGetUnitIsTransporting = Spring.GetUnitIsTransporting
 local spGetCommandQueue = Spring.GetCommandQueue
 local spGetUnitPosition = Spring.GetUnitPosition
-local spTraceScreenRay = Spring.TraceScreenRay
 local spGetGroundHeight = Spring.GetGroundHeight
 local spGetFeaturePosition = Spring.GetFeaturePosition
 local spGiveOrderToUnit = Spring.GiveOrderToUnit
@@ -181,7 +191,6 @@ local CMD_MOVE = CMD.MOVE
 local CMD_ATTACK = CMD.ATTACK
 local CMD_UNLOADUNIT = CMD.UNLOAD_UNIT
 local CMD_UNLOADUNITS = CMD.UNLOAD_UNITS
-local CMD_SET_WANTED_MAX_SPEED = CMD.SET_WANTED_MAX_SPEED
 local CMD_OPT_ALT = CMD.OPT_ALT
 local CMD_OPT_CTRL = CMD.OPT_CTRL
 local CMD_OPT_META = CMD.OPT_META
@@ -270,7 +279,7 @@ end
 local lineLength = 0
 
 local function AddFNode(pos)
-	
+
 	local px, pz = pos[1], pos[3]
 	if px < 0 or pz < 0 or px > mapSizeX or pz > mapSizeZ then
 		return false
@@ -371,7 +380,7 @@ local function GiveNotifyingOrder(cmdID, cmdParams, cmdOpts)
 	if widgetHandler:CommandNotify(cmdID, cmdParams, cmdOpts) then
 		return
 	end
-	
+
 	spGiveOrder(cmdID, cmdParams, cmdOpts.coded)
 end
 local function GiveNotifyingOrderToUnit(uArr, oArr, uID, cmdID, cmdParams, cmdOpts)
@@ -651,26 +660,6 @@ function widget:MouseRelease(mx, my, mButton)
 
 			spSetActiveCommand(0) -- Deselect command
 			end
-		end
-		
-		-- Move Speed (Applicable to every order)
-		local wantedSpeed = 99999 -- High enough to exceed all units speed, but not high enough to cause errors (i.e. vs math.huge)
-		
-		if ctrl then
-			local selUnits = spGetSelectedUnits()
-			for i = 1, #selUnits do
-				local uSpeed = UnitDefs[spGetUnitDefID(selUnits[i])].speed
-				if uSpeed > 0 and uSpeed < wantedSpeed then
-					wantedSpeed = uSpeed
-				end
-			end
-		end
-		
-		-- Directly giving speed order appears to work perfectly, including with shifted orders ...
-		-- ... But other widgets CMD.INSERT the speed order into the front (Posn 1) of the queue instead (which doesn't work with shifted orders)
-		if usingCmd ~= CMD.ATTACK and usingCmd ~= CMD.UNLOAD then --hack to fix bomber line attack etc.
-		  local speedOpts = GetCmdOpts(alt, ctrl, meta, shift, true)
-		  GiveNotifyingOrder(CMD_SET_WANTED_MAX_SPEED, {wantedSpeed / 30}, speedOpts)
 		end
 	end
 	
