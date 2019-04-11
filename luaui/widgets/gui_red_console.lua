@@ -462,9 +462,13 @@ local function processLine(line,g,cfg,newlinecolor)
 			text = ssub(line,3)
             if ssub(line,1,3) == "> <" then --player speaking in battleroom
                 local i = sfind(ssub(line,4,slen(line)), ">")
-                name = ssub(line,4,i+2)
+                if (i) then
+	             name = ssub(line,4,i+2)
+                else
+                     name = "unknown"
+                end                
             end
-		end		
+        end		
     end
 	
 	-- filter shadows config changes
