@@ -25,7 +25,7 @@ maxEngineVersion = {
 	[1] = 104,
 	[2] = 0,
 	[3] = 1,
-	[4] = 1000000,
+	[4] = 5000,
 }
 
 engineBranches = {
@@ -45,7 +45,10 @@ function Split(s, separator)
 end
 
 function printEngineVersion(t)
-	return "Spring " .. tostring(t[1]) .. "." .. tostring(t[2]) .. "." .. tostring(t[3])
+	if t[4] > 0 then
+		return "Spring " .. tostring(t[1]) .. "." .. tostring(t[2]) .. "." .. tostring(t[3]) .. "-" .. tostring(t[4])
+	end
+	return "Spring " .. tostring(t[1])
 end
 
 function printEngineBranches(t)
@@ -57,23 +60,17 @@ function printEngineBranches(t)
 end
 
 function gadget:GameStart()
-	engineVersion = {[1]=0,[2]=0,[3]=0,[4]=0}
+	engineVersion = {[1]=0,[2]=0,[3]=1,[4]=0}
 	if Engine and Engine.version then
 		engineVersion = Split(Engine.version, '-. ')
 	end
 	
 	engineVersion[1] = engineVersion[1] and tonumber(engineVersion[1]) or 0
 	engineVersion[2] = engineVersion[2] and tonumber(engineVersion[2]) or 0 
-	engineVersion[3] = engineVersion[3] and tonumber(engineVersion[3]) or 0
-	engineVersion[4] = engineVersion[4] and tonumber(engineVersion[3]) or 0
+	engineVersion[3] = engineVersion[3] and tonumber(engineVersion[3]) or 1 -- hack to pass   stable version numbers
+	engineVersion[4] = engineVersion[4] and tonumber(engineVersion[4]) or 0
 	-- 5 is commit hash 
 	engineBranch = engineVersion[6] or "master"
-	
-	Spring.Echo("MOOO", #engineVersion, Engine.version)
-	for i=1,#engineVersion do
-		Spring.Echo(engineVersion[i])
-	end
-	Spring.Echo(engineBranch)
 	
 	if not engineBranches[engineBranch] then
 		Spring.Echo(red .. "WARNING: YOU ARE USING SPRING " .. Engine.version .. " WHICH IS NOT SUPPORTED BY THIS GAME.")
