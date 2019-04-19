@@ -14,23 +14,91 @@ if (gadgetHandler:IsSyncedCode()) then
 	return
 end
 
-local minEngineVersion = 104 -- major engine version as number
-local maxEngineVersion = 104 -- don't forget to update it!
+minEngineVersion = { -- version comparison uses *strict* inequality
+	[1] = 104,
+	[2] = 0,
+	[3] = 1,
+	[4] = 1200,
+}
+
+maxEngineVersion = { 
+	[1] = 104,
+	[2] = 0,
+	[3] = 1,
+	[4] = 1000000,
+}
+
+engineBranches = {
+	["maintenance"] = true,
+	["master"] = true,
+}
+
 
 local red = "\255\255\1\1"
 
+function Split(s, separator)
+	local results = {}
+	for part in s:gmatch("[^"..separator.."]+") do
+		results[#results + 1] = part
+	end
+	return results
+end
+
+function printEngineVersion(t)
+	return "Spring " .. tostring(t[1]) .. "." .. tostring(t[2]) .. "." .. tostring(t[3])
+end
+
+function printEngineBranches(t)
+	branches = ""
+	for branch in pairs(engineBranches) do
+		branches = branches .. " " .. branch
+	end
+	return branches
+end
+
 function gadget:GameStart()
-    local n = string.find(Engine.version,".",1,true) or string.len(Engine.version) -- see http://stackoverflow.com/questions/15258313/finding-with-string-find, lua is so *** stupid
-    local reportedMajorVersion = string.sub(Engine.version,1,n+1)
-    if reportedMajorVersion and tonumber(reportedMajorVersion) then
-        if tonumber(reportedMajorVersion)<minEngineVersion then
-            Spring.Echo(red .. "WARNING: YOU ARE USING SPRING " .. Engine.version .. " WHICH IS TOO OLD FOR THIS GAME.")
-            Spring.Echo(red .. "PLEASE UPDATE YOUR ENGINE TO SPRING " .. tostring(minEngineVersion) .. " - " .. tostring(maxEngineVersion) .. ".")
-        elseif tonumber(reportedMajorVersion)>maxEngineVersion then
-            Spring.Echo(red .. "WARNING: YOU ARE USING SPRING " .. Engine.version .. " WHICH IS TOO RECENT FOR THIS GAME.")
-            Spring.Echo(red .. "PLEASE DOWNGRADE YOUR ENGINE TO SPRING " .. tostring(minEngineVersion) .. " - " .. tostring(maxEngineVersion) .. ".")
-        end           
-    end
+	engineVersion = {[1]=0,[2]=0,[3]=0,[4]=0}
+	if Engine and Engine.version then
+		engineVersion = Split(Engine.version, '-. ')
+	end
+	
+	engineVersion[1] = engineVersion[1] and tonumber(engineVersion[1]) or 0
+	engineVersion[2] = engineVersion[2] and tonumber(engineVersion[2]) or 0 
+	engineVersion[3] = engineVersion[3] and tonumber(engineVersion[3]) or 0
+	engineVersion[4] = engineVersion[4] and tonumber(engineVersion[3]) or 0
+	-- 5 is commit hash 
+	engineBranch = engineVersion[6] or "master"
+	
+	Spring.Echo("MOOO", #engineVersion, Engine.version)
+	for i=1,#engineVersion do
+		Spring.Echo(engineVersion[i])
+	end
+	Spring.Echo(engineBranch)
+	
+	if not engineBranches[engineBranch] then
+		Spring.Echo(red .. "WARNING: YOU ARE USING SPRING " .. Engine.version .. " WHICH IS NOT SUPPORTED BY THIS GAME.")
+		Spring.Echo(red .. "Please use Spring " .. printEngineVersion(minEngineVersion) .. " - " .. printEngineVersion(maxEngineVersion) .. " (branches:" .. printEngineBranches(engineBranches) .. ").")	
+		return
+	end
+
+	result = 0
+	for i=1,4 do
+		if engineVersion[i] > maxEngineVersion[i] then
+			result = 1
+			break
+		elseif engineVersion[i] < minEngineVersion[i] then
+			result = -1
+			break
+		end
+	end
+	
+	if result == -1 then
+		Spring.Echo(red .. "WARNING: YOU ARE USING SPRING " .. Engine.version .. " WHICH IS TOO OLD FOR THIS GAME.")
+		Spring.Echo(red .. "Please update your Spring engine to " .. printEngineVersion(minEngineVersion) .. " - " .. printEngineVersion(maxEngineVersion) .. " (branches: " .. printEngineBranches(engineBranches) .. ").")
+	elseif result == 1 then
+		Spring.Echo(red .. "WARNING: YOU ARE USING SPRING " .. Engine.version .. " WHICH IS TOO RECENT FOR THIS GAME.")
+		Spring.Echo(red .. "Please downgrade your Spring engine to " .. printEngineVersion(minEngineVersion) .. " - " .. printEngineVersion(maxEngineVersion) .. " (branches: " .. printEngineBranches(engineBranches) .. ").")
+	end           
 end
 
 
