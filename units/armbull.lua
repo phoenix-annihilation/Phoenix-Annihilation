@@ -1,7 +1,7 @@
 return {
 	armbull = {
-		acceleration = 0.0396,
-		brakerate = 0.165,
+		acceleration = 0.03542,
+		brakerate = 0.07083,
 		buildcostenergy = 13232,
 		buildcostmetal = 900,
 		buildpic = "ARMBULL.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 4200,
 		maxslope = 12,
-		maxvelocity = 2.44,
+		maxvelocity = 2.13,
 		maxwaterdepth = 15,
 		movementclass = "HTANK3",
 		name = "Bulldog",

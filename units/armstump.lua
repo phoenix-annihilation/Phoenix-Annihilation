@@ -1,7 +1,7 @@
 return {
 	armstump = {
-		acceleration = 0.0287,
-		brakerate = 0.0894,
+		acceleration = 0.0438,
+		brakerate = 0.08759,
 		buildcostenergy = 2049,
 		buildcostmetal = 214,
 		buildpic = "ARMSTUMP.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1606,
 		maxslope = 10,
-		maxvelocity = 2.9,
+		maxvelocity = 2.53,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Stumpy",

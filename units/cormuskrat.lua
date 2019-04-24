@@ -1,7 +1,7 @@
 return {
 	cormuskrat = {
-		acceleration = 0.06,
-		brakerate = 0.6996,
+		acceleration = 0.01722,
+		brakerate = 0.03444,
 		buildcostenergy = 3430,
 		buildcostmetal = 172,
 		builddistance = 112,
@@ -25,7 +25,7 @@ return {
 		leavetracks = true,
 		maxdamage = 995,
 		maxslope = 16,
-		maxvelocity = 1.44,
+		maxvelocity = 1.26,
 		maxwaterdepth = 255,
 		metalmake = 0.08,
 		metalstorage = 50,

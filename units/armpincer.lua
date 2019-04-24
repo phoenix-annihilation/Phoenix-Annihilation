@@ -1,7 +1,7 @@
 return {
 	armpincer = {
-		acceleration = 0.031,
-		brakerate = 0.063,
+		acceleration = 0.03572,
+		brakerate = 0.07144,
 		buildcostenergy = 2049,
 		buildcostmetal = 199,
 		buildpic = "ARMPINCER.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1205,
 		maxslope = 15,
-		maxvelocity = 2.25,
+		maxvelocity = 1.97,
 		maxwaterdepth = 125,
 		movementclass = "ATANK3",
 		name = "Pincer",

@@ -1,7 +1,7 @@
 return {
 	armjanus = {
-		acceleration = 0.0198,
-		brakerate = 0.165,
+		acceleration = 0.02111,
+		brakerate = 0.04222,
 		buildcostenergy = 2518,
 		buildcostmetal = 241,
 		buildpic = "ARMJANUS.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 924,
 		maxslope = 10,
-		maxvelocity = 1.958,
+		maxvelocity = 1.71,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Janus",

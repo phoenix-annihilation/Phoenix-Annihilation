@@ -1,7 +1,7 @@
 return {
 	cormabm = {
-		acceleration = 0.0198,
-		brakerate = 0.1122,
+		acceleration = 0.03721,
+		brakerate = 0.07443,
 		buildcostenergy = 32427,
 		buildcostmetal = 1227,
 		buildpic = "CORMABM.DDS",
@@ -25,7 +25,7 @@ return {
 		leavetracks = true,
 		maxdamage = 780,
 		maxslope = 10,
-		maxvelocity = 1.8,
+		maxvelocity = 1.57,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Hedgehog",

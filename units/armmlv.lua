@@ -1,8 +1,8 @@
 return {
 	armmlv = {
-		acceleration = 0.071,
+		acceleration = 0.07135,
 		activatewhenbuilt = true,
-		brakerate = 1.65,
+		brakerate = 0.1427,
 		buildcostenergy = 1100,
 		buildcostmetal = 57,
 		builddistance = 96,
@@ -33,7 +33,7 @@ return {
 		mass = 1500,
 		maxdamage = 155,
 		maxslope = 16,
-		maxvelocity = 2.524,
+		maxvelocity = 2.49,
 		maxwaterdepth = 0,
 		movementclass = "TANK2",
 		name = "Podger",

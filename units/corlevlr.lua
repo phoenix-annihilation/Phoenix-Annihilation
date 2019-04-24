@@ -1,7 +1,7 @@
 return {
 	corlevlr = {
-		acceleration = 0.0364,
-		brakerate = 1.0854,
+		acceleration = 0.01654,
+		brakerate = 0.03308,
 		buildcostenergy = 2546,
 		buildcostmetal = 224,
 		buildpic = "CORLEVLR.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1338,
 		maxslope = 17,
-		maxvelocity = 1.4265,
+		maxvelocity = 1.24,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Leveler",

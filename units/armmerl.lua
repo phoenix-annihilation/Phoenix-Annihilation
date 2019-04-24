@@ -1,7 +1,7 @@
 return {
 	armmerl = {
-		acceleration = 0.026,
-		brakerate = 0.1122,
+		acceleration = 0.02489,
+		brakerate = 0.04978,
 		buildcostenergy = 6556,
 		buildcostmetal = 919,
 		buildpic = "ARMMERL.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1100,
 		maxslope = 16,
-		maxvelocity = 1.2,
+		maxvelocity = 1.05,
 		maxwaterdepth = 12,
 		movementclass = "TANK3",
 		name = "Merl",

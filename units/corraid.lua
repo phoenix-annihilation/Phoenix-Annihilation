@@ -1,7 +1,7 @@
 return {
 	corraid = {
-		acceleration = 0.0243,
-		brakerate = 0.0762,
+		acceleration = 0.04056,
+		brakerate = 0.08113,
 		buildcostenergy = 2367,
 		buildcostmetal = 225,
 		buildpic = "CORRAID.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1769,
 		maxslope = 10,
-		maxvelocity = 2.783,
+		maxvelocity = 2.4,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Raider",

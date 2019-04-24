@@ -1,7 +1,7 @@
 return {
 	corfav = {
-		acceleration = 0.11,
-		brakerate = 0.435,
+		acceleration = 0.11933,
+		brakerate = 0.23865,
 		buildcostenergy = 273,
 		buildcostmetal = 26,
 		buildpic = "CORFAV.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 95,
 		maxslope = 26,
-		maxvelocity = 4.89,
+		maxvelocity = 4.28,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Weasel",

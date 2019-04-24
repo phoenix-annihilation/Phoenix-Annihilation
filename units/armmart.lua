@@ -1,7 +1,7 @@
 return {
 	armmart = {
-		acceleration = 0.0184,
-		brakerate = 0.3696,
+		acceleration = 0.02159,
+		brakerate = 0.04319,
 		buildcostenergy = 4096,
 		buildcostmetal = 271,
 		buildpic = "ARMMART.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 600,
 		maxslope = 12,
-		maxvelocity = 1.81,
+		maxvelocity = 1.58,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Luger",

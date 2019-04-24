@@ -1,7 +1,7 @@
 return {
 	tawf013 = {
-		acceleration = 0.0154,
-		brakerate = 0.0462,
+		acceleration = 0.02727,
+		brakerate = 0.05454,
 		buildcostenergy = 2150,
 		buildcostmetal = 135,
 		buildpic = "TAWF013.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 556,
 		maxslope = 15,
-		maxvelocity = 1.958,
+		maxvelocity = 1.52,
 		maxwaterdepth = 8,
 		movementclass = "TANK3",
 		name = "Shellshocker",

@@ -1,8 +1,8 @@
 return {
 	armsam = {
-		acceleration = 0.031,
+		acceleration = 0.0236,
 		airsightdistance = 900,
-		brakerate = 0.0495,
+		brakerate = 0.0472,
 		buildcostenergy = 2162,
 		buildcostmetal = 149,
 		buildpic = "ARMSAM.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 735,
 		maxslope = 16,
-		maxvelocity = 1.6,
+		maxvelocity = 1.4,
 		maxwaterdepth = 12,
 		movementclass = "TANK3",
 		name = "Samson",

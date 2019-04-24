@@ -1,7 +1,7 @@
 return {
 	intruder = {
-		acceleration = 0.33,
-		brakerate = 0.495,
+		acceleration = 0.01621,
+		brakerate = 0.01621,
 		buildangle = 16384,
 		buildcostenergy = 16011,
 		buildcostmetal = 1348,
@@ -26,7 +26,7 @@ return {
 		loadingradius = 110,
 		mass = 200000000,
 		maxdamage = 20000,
-		maxvelocity = 1.892,
+		maxvelocity = 1.65,
 		maxwaterdepth = 255,
 		movementclass = "ATANK3",
 		name = "Intruder",

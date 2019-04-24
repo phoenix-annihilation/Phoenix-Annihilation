@@ -1,8 +1,8 @@
 return {
 	cormist = {
-		acceleration = 0.027,
+		acceleration = 0.02208,
 		airsightdistance = 900,
-		brakerate = 0.0495,
+		brakerate = 0.04416,
 		buildcostenergy = 2322,
 		buildcostmetal = 156,
 		buildpic = "CORMIST.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 777,
 		maxslope = 16,
-		maxvelocity = 1.5,
+		maxvelocity = 1.31,
 		maxwaterdepth = 12,
 		movementclass = "TANK3",
 		name = "Slasher",

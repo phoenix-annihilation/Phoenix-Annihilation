@@ -1,7 +1,7 @@
 return {
 	armfav = {
-		acceleration = 0.12,
-		brakerate = 0.495,
+		acceleration = 0.16659,
+		brakerate = 0.33318,
 		buildcostenergy = 365,
 		buildcostmetal = 31,
 		buildpic = "ARMFAV.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 80,
 		maxslope = 26,
-		maxvelocity = 6.4,
+		maxvelocity = 5.6,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Jeffy",

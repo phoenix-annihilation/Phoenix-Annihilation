@@ -1,7 +1,7 @@
 return {
 	corparrow = {
-		acceleration = 0.015,
-		brakerate = 0.2145,
+		acceleration = 0.0266,
+		brakerate = 0.05321,
 		buildcostenergy = 28644,
 		buildcostmetal = 1054,
 		buildpic = "CORPARROW.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 5700,
 		maxslope = 12,
-		maxvelocity = 1.95,
+		maxvelocity = 1.46,
 		maxwaterdepth = 255,
 		movementclass = "ATANK3",
 		name = "Poison Arrow",

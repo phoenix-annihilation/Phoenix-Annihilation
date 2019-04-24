@@ -1,8 +1,8 @@
 return {
 	corsent = {
-		acceleration = 0.0528,
+		acceleration = 0.05823,
 		airsightdistance = 900,
-		brakerate = 0.4125,
+		brakerate = 0.11647,
 		buildcostenergy = 10119,
 		buildcostmetal = 473,
 		buildpic = "CORSENT.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 2425,
 		maxslope = 14,
-		maxvelocity = 2.475,
+		maxvelocity = 2.16,
 		maxwaterdepth = 12,
 		movementclass = "TANK3",
 		name = "Copperhead",

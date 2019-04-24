@@ -1,7 +1,7 @@
 return {
 	armflash = {
-		acceleration = 0.06,
-		brakerate = 0.195,
+		acceleration = 0.06788,
+		brakerate = 0.13575,
 		buildcostenergy = 975,
 		buildcostmetal = 116,
 		buildpic = "ARMFLASH.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 598,
 		maxslope = 10,
-		maxvelocity = 3.6,
+		maxvelocity = 3.15,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Flash",

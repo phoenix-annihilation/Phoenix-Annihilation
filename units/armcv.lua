@@ -1,7 +1,7 @@
 return {
 	armcv = {
-		acceleration = 0.121,
-		brakerate = 1.2408,
+		acceleration = 0.03329,
+		brakerate = 0.06658,
 		buildcostenergy = 1922,
 		buildcostmetal = 137,
 		builddistance = 130,
@@ -26,7 +26,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1240,
 		maxslope = 16,
-		maxvelocity = 1.925,
+		maxvelocity = 1.68,
 		maxwaterdepth = 18,
 		metalmake = 0.1,
 		metalstorage = 50,

@@ -1,7 +1,7 @@
 return {
 	consul = {
-		acceleration = 0.165,
-		brakerate = 0.825,
+		acceleration = 0.07029,
+		brakerate = 0.14059,
 		buildcostenergy = 4297,
 		buildcostmetal = 252,
 		builddistance = 136,
@@ -26,7 +26,7 @@ return {
 		leavetracks = true,
 		maxdamage = 975,
 		maxslope = 18,
-		maxvelocity = 2.783,
+		maxvelocity = 2.43,
 		maxwaterdepth = 18,
 		metalmake = 0.15,
 		metalstorage = 100,

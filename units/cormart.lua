@@ -1,7 +1,7 @@
 return {
 	cormart = {
-		acceleration = 0.0204,
-		brakerate = 0.3696,
+		acceleration = 0.02556,
+		brakerate = 0.05111,
 		buildcostenergy = 3205,
 		buildcostmetal = 281,
 		buildpic = "CORMART.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 560,
 		maxslope = 12,
-		maxvelocity = 1.95,
+		maxvelocity = 1.7,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Pillager",

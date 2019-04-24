@@ -1,7 +1,7 @@
 return {
 	armbeaver = {
-		acceleration = 0.06,
-		brakerate = 0.6996,
+		acceleration = 0.01842,
+		brakerate = 0.03684,
 		buildcostenergy = 3123,
 		buildcostmetal = 150,
 		builddistance = 112,
@@ -25,7 +25,7 @@ return {
 		leavetracks = true,
 		maxdamage = 925,
 		maxslope = 16,
-		maxvelocity = 1.49,
+		maxvelocity = 1.3,
 		maxwaterdepth = 255,
 		metalmake = 0.08,
 		metalstorage = 50,

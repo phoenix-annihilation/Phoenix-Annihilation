@@ -1,7 +1,7 @@
 return {
 	armcroc = {
-		acceleration = 0.0528,
-		brakerate = 0.0627,
+		acceleration = 0.03452,
+		brakerate = 0.06904,
 		buildcostenergy = 12279,
 		buildcostmetal = 498,
 		buildpic = "ARMCROC.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 3360,
 		maxslope = 12,
-		maxvelocity = 2,
+		maxvelocity = 1.75,
 		maxwaterdepth = 255,
 		movementclass = "ATANK3",
 		name = "Triton",

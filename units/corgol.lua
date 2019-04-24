@@ -1,7 +1,7 @@
 return {
 	corgol = {
-		acceleration = 0.0242,
-		brakerate = 0.1485,
+		acceleration = 0.01018,
+		brakerate = 0.02037,
 		buildcostenergy = 21218,
 		buildcostmetal = 1671,
 		buildpic = "CORGOL.DDS",
@@ -24,7 +24,7 @@ return {
 		mass = 5001,
 		maxdamage = 7000,
 		maxslope = 12,
-		maxvelocity = 1.45,
+		maxvelocity = 1.27,
 		maxwaterdepth = 12,
 		movementclass = "HTANK4",
 		name = "Goliath",

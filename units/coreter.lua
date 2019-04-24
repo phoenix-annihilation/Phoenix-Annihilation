@@ -1,8 +1,8 @@
 return {
 	coreter = {
-		acceleration = 0.0407,
+		acceleration = 0.03583,
 		activatewhenbuilt = true,
-		brakerate = 0.0594,
+		brakerate = 0.07166,
 		buildcostenergy = 1874,
 		buildcostmetal = 107,
 		buildpic = "CORETER.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 520,
 		maxslope = 16,
-		maxvelocity = 1.452,
+		maxvelocity = 1.27,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Deleter",

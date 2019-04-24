@@ -1,7 +1,7 @@
 return {
 	corwolv = {
-		acceleration = 0.011,
-		brakerate = 0.0297,
+		acceleration = 0.02293,
+		brakerate = 0.04585,
 		buildcostenergy = 2367,
 		buildcostmetal = 153,
 		buildpic = "CORWOLV.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 577,
 		maxslope = 10,
-		maxvelocity = 1.87,
+		maxvelocity = 1.08,
 		maxwaterdepth = 8,
 		movementclass = "TANK2",
 		name = "Wolverine",

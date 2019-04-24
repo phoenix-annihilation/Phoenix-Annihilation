@@ -1,7 +1,7 @@
 return {
 	corgarp = {
-		acceleration = 0.0243,
-		brakerate = 0.063,
+		acceleration = 0.03226,
+		brakerate = 0.06453,
 		buildcostenergy = 2604,
 		buildcostmetal = 220,
 		buildpic = "CORGARP.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1279,
 		maxslope = 12,
-		maxvelocity = 2.1,
+		maxvelocity = 1.83,
 		maxwaterdepth = 200,
 		movementclass = "ATANK3",
 		name = "Garpike",

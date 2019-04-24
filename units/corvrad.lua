@@ -1,8 +1,8 @@
 return {
 	corvrad = {
-		acceleration = 0.03,
+		acceleration = 0.01043,
 		activatewhenbuilt = true,
-		brakerate = 0.036,
+		brakerate = 0.02086,
 		buildcostenergy = 1290,
 		buildcostmetal = 92,
 		buildpic = "CORVRAD.DDS",
@@ -25,7 +25,7 @@ return {
 		leavetracks = true,
 		maxdamage = 510,
 		maxslope = 16,
-		maxvelocity = 1.25,
+		maxvelocity = 1.09,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Informer",

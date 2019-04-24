@@ -1,7 +1,7 @@
 return {
 	corseal = {
-		acceleration = 0.0462,
-		brakerate = 0.0627,
+		acceleration = 0.05125,
+		brakerate = 0.1025,
 		buildcostenergy = 9067,
 		buildcostmetal = 480,
 		buildpic = "CORSEAL.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 2340,
 		maxslope = 12,
-		maxvelocity = 2.645,
+		maxvelocity = 2.31,
 		maxwaterdepth = 255,
 		movementclass = "ATANK3",
 		name = "Croc",

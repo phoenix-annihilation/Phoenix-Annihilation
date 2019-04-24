@@ -1,7 +1,7 @@
 return {
 	trem = {
-		acceleration = 0.0528,
-		brakerate = 0.33,
+		acceleration = 0.0098,
+		brakerate = 0.0196,
 		buildcostenergy = 48373,
 		buildcostmetal = 2081,
 		buildpic = "TREM.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 2700,
 		maxslope = 14,
-		maxvelocity = 1.452,
+		maxvelocity = 1.27,
 		maxwaterdepth = 15,
 		movementclass = "HTANK4",
 		name = "Tremor",

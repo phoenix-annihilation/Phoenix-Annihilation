@@ -1,7 +1,7 @@
 return {
 	armmanni = {
-		acceleration = 0.0132,
-		brakerate = 0.4125,
+		acceleration = 0.00715,
+		brakerate = 0.01431,
 		buildcostenergy = 13309,
 		buildcostmetal = 1204,
 		buildpic = "ARMMANNI.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 2500,
 		maxslope = 12,
-		maxvelocity = 1.518,
+		maxvelocity = 1.3,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Penetrator",

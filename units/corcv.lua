@@ -1,7 +1,7 @@
 return {
 	corcv = {
-		acceleration = 0.1144,
-		brakerate = 1.0692,
+		acceleration = 0.03049,
+		brakerate = 0.06099,
 		buildcostenergy = 2111,
 		buildcostmetal = 143,
 		builddistance = 130,
@@ -26,7 +26,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1290,
 		maxslope = 16,
-		maxvelocity = 1.815,
+		maxvelocity = 1.59,
 		maxwaterdepth = 19,
 		metalmake = 0.1,
 		metalstorage = 50,

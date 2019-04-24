@@ -1,7 +1,7 @@
 return {
 	corgator = {
-		acceleration = 0.055,
-		brakerate = 0.165,
+		acceleration = 0.04631,
+		brakerate = 0.09262,
 		buildcostenergy = 1111,
 		buildcostmetal = 126,
 		buildpic = "CORGATOR.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 727,
 		maxslope = 10,
-		maxvelocity = 3,
+		maxvelocity = 2.62,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Instigator",

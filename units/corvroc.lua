@@ -1,7 +1,7 @@
 return {
 	corvroc = {
-		acceleration = 0.025,
-		brakerate = 0.1254,
+		acceleration = 0.02489,
+		brakerate = 0.04978,
 		buildcostenergy = 6688,
 		buildcostmetal = 882,
 		buildpic = "CORVROC.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 1250,
 		maxslope = 16,
-		maxvelocity = 1.2,
+		maxvelocity = 1.05,
 		maxwaterdepth = 12,
 		movementclass = "TANK3",
 		name = "Diplomat",

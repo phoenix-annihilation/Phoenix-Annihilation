@@ -1,7 +1,7 @@
 return {
 	tawf114 = {
-		acceleration = 0.0209,
-		brakerate = 0.0594,
+		acceleration = 0.02269,
+		brakerate = 0.04537,
 		buildcostenergy = 22081,
 		buildcostmetal = 1002,
 		buildpic = "TAWF114.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 2250,
 		maxslope = 20,
-		maxvelocity = 1.905,
+		maxvelocity = 1.66,
 		maxwaterdepth = 20,
 		metalstorage = 4,
 		movementclass = "HTANK4",

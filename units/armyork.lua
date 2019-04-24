@@ -1,8 +1,8 @@
 return {
 	armyork = {
-		acceleration = 0.0396,
+		acceleration = 0.06111,
 		airsightdistance = 900,
-		brakerate = 0.3795,
+		brakerate = 0.12223,
 		buildcostenergy = 9077,
 		buildcostmetal = 453,
 		buildpic = "ARMYORK.DDS",
@@ -24,7 +24,7 @@ return {
 		leavetracks = true,
 		maxdamage = 2350,
 		maxslope = 16,
-		maxvelocity = 2.4816,
+		maxvelocity = 2.17,
 		maxwaterdepth = 12,
 		movementclass = "TANK3",
 		name = "Phalanx",

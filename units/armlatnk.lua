@@ -1,7 +1,7 @@
 return {
 	armlatnk = {
-		acceleration = 0.125,
-		brakerate = 0.375,
+		acceleration = 0.05833,
+		brakerate = 0.11666,
 		buildcostenergy = 6400,
 		buildcostmetal = 327,
 		buildpic = "ARMLATNK.DDS",
@@ -23,7 +23,7 @@ return {
 		leavetracks = true,
 		maxdamage = 950,
 		maxslope = 10,
-		maxvelocity = 3.326,
+		maxvelocity = 2.91,
 		maxwaterdepth = 12,
 		movementclass = "TANK2",
 		name = "Panther",

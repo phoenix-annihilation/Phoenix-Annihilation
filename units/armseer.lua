@@ -1,8 +1,8 @@
 return {
 	armseer = {
-		acceleration = 0.0418,
+		acceleration = 0.04878,
 		activatewhenbuilt = true,
-		brakerate = 0.0495,
+		brakerate = 0.09757,
 		buildcostenergy = 2070,
 		buildcostmetal = 123,
 		buildpic = "ARMSEER.DDS",
@@ -25,7 +25,7 @@ return {
 		leavetracks = true,
 		maxdamage = 880,
 		maxslope = 16,
-		maxvelocity = 2.024,
+		maxvelocity = 1.77,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Seer",

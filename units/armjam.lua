@@ -1,8 +1,8 @@
 return {
 	armjam = {
-		acceleration = 0.035,
+		acceleration = 0.02416,
 		activatewhenbuilt = true,
-		brakerate = 0.036,
+		brakerate = 0.04831,
 		buildcostenergy = 1729,
 		buildcostmetal = 103,
 		buildpic = "ARMJAM.DDS",
@@ -25,7 +25,7 @@ return {
 		leavetracks = true,
 		maxdamage = 460,
 		maxslope = 16,
-		maxvelocity = 1.2,
+		maxvelocity = 1.05,
 		maxwaterdepth = 0,
 		movementclass = "TANK3",
 		name = "Jammer",

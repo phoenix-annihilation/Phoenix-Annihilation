@@ -1,7 +1,7 @@
 return {
 	armst = {
-		acceleration = 0.04,
-		brakerate = 0.165,
+		acceleration = 0.0697,
+		brakerate = 0.13939,
 		buildcostenergy = 3712,
 		buildcostmetal = 226,
 		buildpic = "ARMST.DDS",
@@ -25,7 +25,7 @@ return {
 		leavetracks = true,
 		maxdamage = 950,
 		maxslope = 12,
-		maxvelocity = 2.497,
+		maxvelocity = 2.18,
 		maxwaterdepth = 0,
 		mincloakdistance = 65,
 		movementclass = "TANK2",
