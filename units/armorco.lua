@@ -183,7 +183,7 @@ return {
 				avoidfeature = false,
 				craterareaofeffect = 160,
 				craterboost = 0.4,
-				cratermult = 0.4,
+				cratermult = 0.12,
 				edgeeffectiveness = 0.75,
 				explosiongenerator = "custom:FLASH96",
 				firestarter = 55,

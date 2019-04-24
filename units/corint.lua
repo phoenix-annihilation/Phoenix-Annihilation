@@ -110,7 +110,7 @@ return {
 				avoidfeature = false,
 				craterareaofeffect = 136,
 				craterboost = 0.1,
-				cratermult = 0.1,
+				cratermult = 0.03,
 				energypershot = 3000,
 				explosiongenerator = "custom:FLASHBIGBUILDING",
 				gravityaffected = "true",
