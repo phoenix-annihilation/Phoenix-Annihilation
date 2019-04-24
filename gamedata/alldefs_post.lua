@@ -30,7 +30,7 @@ end
 
 -- process weapondef
 function WeaponDef_Post(name, wDef)
-  wDef.cratermult = (wDef.cratermult or 1) * 0.3 -- modify cratermult cause Spring v103 made too big craters
+
 end
 
 
