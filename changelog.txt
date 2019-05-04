@@ -1,9 +1,14 @@
 ﻿1.02
+2018-04-05
 
 Updates for Spring 104:
-- Replaced 'select(10, Spring.GetPlayerInfo(playerID))' with 'select(11, Spring.GetPlayerInfo(playerID))' because Spring.GetPlayerInfo(playerID) return value was changed (new HasSkirmishAIsInTeam boolean flag added)
-- Updates usage of Spring.GetGroundInfo, because this function now returns [number index, string name, ...] instead of [string name, ...]
-- Removed usage of CMD.SET_WANTED_MAX_SPEED (removed from engine)
+- Various syntax/api updates for Spring 104.0.1-1208, require this engine or later
+- Removed Shard AI, unmaintained in PA
+- Fixed lua errors from air trans gadgets
+- Fixed numerical spectator names & removed cat in adv pl list
+- Disabled shadow quality manager
+- Tweaked veh movements stats closer to 9.46 feel
+
 
 Widgets:
 - CustomFormations2: Removed ability to set same speed to selected units when giving orders(CTRL) (because CMD.SET_WANTED_MAX_SPEED was removed)
