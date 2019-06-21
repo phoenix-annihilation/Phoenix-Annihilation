@@ -1,10 +1,10 @@
 return {
-  name='Phoenix Annihilation',
-  description='From The Ashes a Phoenix is Born',
-  shortname='PA',
+  name='Balanced Annihilation',
+  description='BA 9.46 but 104.0 compatible!',
+  shortname='BA',
   version='$VERSION',
   mutator='Official',
   game='Total Annihilation',
-  shortGame='PA',
+  shortGame='BA',
   modtype=1,
 }
